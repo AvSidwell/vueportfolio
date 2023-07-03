@@ -30,7 +30,7 @@
             <a class="nav-link animate__animated animate__flash animate animate__infinite infinite" href="#">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link animate__animated animate__flash animate animate__infinite infinite">Disabled</a>
+            <a class="nav-link animate__animated animate__flash animate animate__infinite infinite" href="/Testimonials-View">Testimonials</a>
           </li>
         </ul>
       </div>
