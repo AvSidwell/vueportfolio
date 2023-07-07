@@ -1,0 +1,136 @@
+{
+  "myProjects": [
+    {
+      "id": 1,
+      "image": "https://i.postimg.cc/xjZhPs47/3.png",
+      "desc": "One of my first projects using a framework (Bootstrap)",
+      "github": "https://github.com/AvSidwell/my-profile",
+      "netlify": "https://gorgeous-squirrel-76d645.netlify.app"
+    },
+    {
+      "id": 2,
+      "image": "https://i.postimg.cc/j5g9mvdD/5.png",
+      "desc": "Group task where I mainly focused on the About page",
+      "github": "https://github.com/gxotiweokuhle/groupwork",
+      "netlify": "https://iconnect-for-us.netlify.app/"
+    },
+    {
+      "id": 3,
+      "image": "https://i.postimg.cc/sgdLkMy4/4.png",
+      "desc": "Group exercise in which I led",
+      "github": "https://github.com/AvSidwell/Streaming-webpage",
+      "netlify": "https://jolly-semifreddo-0b84d1.netlify.app"
+    },
+    {
+      "id": 4,
+      "image": "https://i.postimg.cc/j2zfLx3P/Screenshot-2023-07-06-110837.png",
+      "desc": "My Js Calculator",
+      "github": "https://github.com/AvSidwell/jsCalculator",
+      "netlify": "https://delicate-medovik-569c8f.netlify.app"
+    },
+    {
+      "id": 5,
+      "image": "https://i.postimg.cc/vZCKdXnj/Screenshot-2023-07-06-110644.png",
+      "desc": "My Js End-of-Module Project (E-comerce Webpage)",
+      "github": "https://github.com/AvSidwell/Js-EOM-Project",
+      "netlify": "https://capable-sprinkles-a0a23c.netlify.app"
+    },
+    {
+      "id": 6,
+      "image": "https://i.postimg.cc/4d2NJr1Z/Screenshot-2023-07-06-110507.png",
+      "desc": "Excercise/ Practice for the (E-comerce Webpage)",
+      "github": "https://github.com/AvSidwell/Eco",
+      "netlify": "https://roaring-sfogliatella-42fa93.netlify.app"
+    },
+    {
+      "id": 7,
+      "image": "https://i.postimg.cc/XJhMp3Bj/Screenshot-2023-07-06-111231.png",
+      "desc": "My Js Temperature Converter",
+      "github": "https://github.com/AvSidwell/converter",
+      "netlify": "https://brilliant-arithmetic-3c238c.netlify.app"
+    }
+  ],
+  "Me": [
+    {
+      "id": 1,
+      "image": "https://i.postimg.cc/TwPRbC2x/c2.png",
+      "title": "About",
+      "spamTitle": "Me",
+      "pText": "I am a passion driven young man who likes challenges.I work well with others and posses great leadership qualities.I am an attentive, focused and work well under pressure. I am quick to learn and  have a fresh mind and eye for creativity.I am devoted in what I do and consider myself an asset wherever I am.",
+      "pText2": "I am a very observant young lad, some might say I'm quiet and some loud and outgoing it all depends ron how much of me they know and but most importantly the relationship with me they have. I could say I'm efficient but some can say lazy but just as I stated before efficient I like to get things in the fastest and easiest way possible, that is why I love technology as much as I do. Even though I am what I am, I work very hard in the things I am passionet About I tookup this path/road because I want to be part of the people that make the imposible possible."
+    }
+  ],
+  "mySkills": [
+    {
+      "id": 1,
+      "language": "CSS",
+      "pic": "https://i.postimg.cc/fTMfLfhR/css-removebg-preview.png"
+    },
+    {
+      "id": 2,
+      "language": "Bootstrap (Framework of CSS)",
+      "pic": "https://i.postimg.cc/1Rb8NSTt/bootstrap-removebg-preview-1.png"
+    },
+    {
+      "id": 3,
+      "language": "JS",
+      "pic": "https://i.postimg.cc/vZc6Rt7p/js-removebg-preview.png"
+    },
+    {
+      "id": 4,
+      "language": "Vue.js (Framework of JS)",
+      "pic": "https://i.postimg.cc/52YjKNbJ/vue-removebg-preview-1.png"
+    },
+    {
+      "id": 5,
+      "language": "HTML",
+      "pic": "https://i.postimg.cc/CLZFSPtH/html-removebg-preview.png"
+    }
+  ],
+  "myTestimonials": [
+    {
+      "id": 1,
+      "name": " Okuhle Gxotiwe",
+      "view": "Sidwell is great logical thinker , pays attention to detail and isnt afraid to take risks.",
+      "status": "Classmate",
+      "picture": "https://i.postimg.cc/prd9XVH0/C12-Okuhle-Gwotiwe-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Waydin Jochem",
+      "view": "Sidwell is a vibrant and charismatic individual, who oftentimes finds himself taking a lead role in team-based assignments. He expresses himself boldly and is always readily available to take one a new challenge",
+      "status": "Classmate",
+      "picture": "https://i.postimg.cc/nrRM5yN6/Waydin-Jochem-C12-C1-25-Apr23-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Jamie-Lee Kinnear",
+      "view": "Sidwell is a remarkable programmer and has an analytical approach to problem solving. He is a hardworking individual and dedicated to his work. He is a great peer and a team player. He show's initiative and I believe he would be a valuable asset to any company that would be lucky to have him.",
+      "status": "Assistant-Lecture",
+      "picture": "https://i.postimg.cc/4NbMTJdC/Jammie.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Asiphe Ndimlana",
+      "view": "As an IT professional, Sidwell embodies dedication and excellence. He never fails to exceed expectations and possesses a remarkable work ethic alongside unparalleled proficiency in technical matters.",
+      "status": "Classmate",
+      "picture": "https://i.postimg.cc/hjszBzHz/C12-Asiphe-Ndimlana-1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Xola Bangaza",
+      "view": "Sidwell tackles things diferently but works great with teams and does relay what he does and how to do it greatly so anyone can work with him perfectly.",
+      "status": "Classmate",
+      "picture": "https://i.postimg.cc/xCnJhyFV/C12-C1-Xola-Bangaza-2.jpg"
+    }
+  ],
+  "Educations": [
+    {
+      "id": 1,
+      "school": "Belhar High School",
+      "grade": "Matric 2022",
+      "subjects": "English Home Language, Afrikaans First Additional Language, Mathematical Literacy, Life Orientation History, Life Sciences, Computer Application Tech",
+      "picture": ""
+    }
+  ]
+}
