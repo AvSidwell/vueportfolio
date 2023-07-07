@@ -33,7 +33,7 @@ export default {
 p {
   font-size: 4rem;
   position: absolute;
-  top: 86%;
+  top: 85%;
   left: 49%;
 }
 img {
@@ -44,14 +44,14 @@ img {
 h1 {
   position: absolute;
   font-size: 8.5rem;
-  top: 25%;
+  top: 31%;
   left: 32%;
   color: #2ea287;
 }
 h3 {
   position: absolute;
   font-size: 2rem;
-  top: 22%;
+  top: 29%;
   left: 32%;
   color: #0e8388;
 }
