@@ -194,6 +194,10 @@ img {
     padding: 0;
   }  */
 
+  h2 {
+    font-size: large;
+  }
+
   .dis {
     position: relative;
     top: 0;

@@ -25,9 +25,15 @@
       </p>
     </div>
   </div> -->
-  <div>
-    <div v-if="Me" class="bg-dark px-4">
-      <AboutMeComp id="" v-for="andMe of Me" :key="andMe.id" :andMe="andMe"/>
+  <div class="bg-dark">
+    <h1 class="animate__animated animate__fadeIn">About Me</h1>
+    <h4
+      class="animate__animated animate__flash animate__slower animate__delay-3s animate__infinite"
+    >
+      Aspiring Web Developer
+    </h4>
+    <div v-if="Me" class="bg-dark p-4">
+      <AboutMeComp id="" v-for="andMe of Me" :key="andMe.id" :andMe="andMe" />
     </div>
     <div v-else>Processing....</div>
   </div>

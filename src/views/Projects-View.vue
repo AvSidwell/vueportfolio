@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="myProjects" class="bg-dark row">
+    <div v-if="myProjects" class="bg-dark row p-4">
       <myProjectComp
         id="proj"
         v-for="myProject of myProjects"

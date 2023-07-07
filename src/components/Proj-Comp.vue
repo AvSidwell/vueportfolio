@@ -1,5 +1,5 @@
 <template>
-  <router-link
+  <div
     class="col-12 col-lg-4 col-md-4 col-sm-3"
     :to="{ title: 'myProject', params: { id: myProject.id } }"
   >
@@ -7,23 +7,23 @@
       <img class="img mb-2" :src="myProject.image" :alt="myProject" />
       <div class="div con2" id="con2">
         <p class="border-bottom">{{ myProject.desc }}</p>
-        <button class="">
+        <button>
           <a
-            class="tags nav-link animate__animated animate__flash animate animate__infinite infinite"
+            class="tags nav-link animate__animated animate__flash animate animate__infinite infinite" target="_blank"
             :href="myProject.netlify"
             >Netlify Link</a
           >
         </button>
-        <button class="">
+        <button>
           <a
-            class="tags nav-link animate__animated animate__flash animate animate__infinite infinite"
+            class="tags nav-link animate__animated animate__flash animate animate__infinite infinite" target="_blank"
             :href="myProject.github"
             >GitHub</a
           >
         </button>
       </div>
     </div>
-  </router-link>
+  </div>
 </template>
 
 <script>
@@ -61,9 +61,7 @@ button {
   background-color: #2e4f4f;
   height: 25rem;
 }
-#con2 button {
-  visibility: hidden;
-}
+
 #con2 p {
   visibility: hidden;
 }
@@ -77,7 +75,15 @@ p {
 .tags {
   visibility: hidden;
 }
-#con2:hover button {
+#con2:hover  {
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+}
+#con2:hover  {
+  visibility: visible;
+}
+#con2:hover button  {
   visibility: visible;
 }
 #con2:hover .tags {
@@ -92,6 +98,8 @@ p {
 }
 
 .img {
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
   width: 100%;
   height: 15rem;
 }

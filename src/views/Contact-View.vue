@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-dark row">
+  <div class="bg-dark row p-4">
     <div class="div text-center col-12 col-md-6 col-sm-6">
       <form action="https://formspree.io/f/xrgvrgpb" method="POST">
         <label>

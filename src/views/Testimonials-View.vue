@@ -112,7 +112,7 @@
         </div>
       </div>
     </div> -->
-    <div v-if="myTestimonials" class="bg-dark px-4">
+    <div v-if="myTestimonials" class="bg-dark p-4">
       <myTestimonialsComp
         id=""
         v-for="myTestimonial of myTestimonials"

@@ -18,7 +18,7 @@
         id="navbarToggleExternalContent"
         data-bs-theme="dark"
       >
-         <div class="container-fluid">
+        <div class="container-fluid huge">
           <ul
             class="navbar-nav w-100 mb-3 p-auto d-flex flex-row justify-content-center"
           >
@@ -30,79 +30,79 @@
               >
             </div>
             <div class="nav-item">
-            <div class="dropdown">
-              <a
-                class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite border-bottom"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                About me
-              </a>
+              <div class="dropdown">
+                <a
+                  class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite border-bottom"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About me
+                </a>
 
-              <ul class="dropdown-menu text-center">
-                <li class="nav-item border-bottom">
-                  <router-link
-                    class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite"
-                    to="/about"
-                    >Me</router-link
-                  >
-                </li>
-                <li class="nav-item border-bottom">
-                  <router-link
-                    class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite"
-                    to="/Projects-View"
-                    >My Projects</router-link
-                  >
-                </li>
-                <li class="nav-item border-bottom">
-                  <router-link
-                    class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite"
-                    to="/Testimonials"
-                    >Testimonials</router-link
-                  >
-                </li>
-                <li class="nav-item border-bottom">
-                  <router-link
-                    class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite"
-                    to="/Contact-View"
-                    >ContactMe</router-link
-                  >
-                </li>
-              </ul>
+                <ul class="dropdown-menu text-center">
+                  <li class="nav-item border-bottom">
+                    <router-link
+                      class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite"
+                      to="/about"
+                      >Me</router-link
+                    >
+                  </li>
+                  <li class="nav-item border-bottom">
+                    <router-link
+                      class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite"
+                      to="/Projects-View"
+                      >My Projects</router-link
+                    >
+                  </li>
+                  <li class="nav-item border-bottom">
+                    <router-link
+                      class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite"
+                      to="/Testimonials"
+                      >Testimonials</router-link
+                    >
+                  </li>
+                  <li class="nav-item border-bottom">
+                    <router-link
+                      class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite"
+                      to="/Contact-View"
+                      >ContactMe</router-link
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="nav-item">
-            <div class="dropdown">
-              <a
-                class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite border-bottom"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Resume
-              </a>
+            <div class="nav-item">
+              <div class="dropdown">
+                <a
+                  class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite border-bottom"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Resume
+                </a>
 
-              <ul class="dropdown-menu text-center">
-                <li class="nav-item border-bottom">
-                  <router-link
-                    class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite"
-                    to="/Skills-View"
-                    >Skills</router-link
-                  >
-                </li>
-                <li class="nav-item border-bottom">
-                  <router-link
-                    class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite"
-                    to="/Education-View"
-                    >Education</router-link
-                  >
-                </li>
-              </ul>
+                <ul class="dropdown-menu text-center">
+                  <li class="nav-item border-bottom">
+                    <router-link
+                      class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite"
+                      to="/Skills-View"
+                      >Skills</router-link
+                    >
+                  </li>
+                  <li class="nav-item border-bottom">
+                    <router-link
+                      class="btn nav-link animate__animated animate__backOutUp animate animate__infinite infinite"
+                      to="/Education-View"
+                      >Education</router-link
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
           </ul>
         </div>
       </div>
@@ -113,7 +113,7 @@
       id="navbarToggleExternalContent"
       data-bs-theme="dark"
     >
-      <div class="container-fluid">
+      <div class="container-fluid small text-center">
         <ul class="navbar-nav p-auto d-flex justify-content-center">
           <li class="nav-item">
             <router-link
@@ -202,6 +202,17 @@
   </nav>
 </template>
 <style scoped>
+/* 2E4F4F */
+/* 0E8388 */
+/* CBE4DE */
+.huge {
+  visibility: visible;
+}
+
+.small {
+  display: none;
+  visibility: hidden;
+}
 .navbar-nav {
   display: flex !important;
 }
@@ -224,7 +235,7 @@
 .navBtn {
   border: none;
 }
-.navBtn::after {
+.navBtn:target {
   border: none !important;
 }
 .nav-item {
@@ -233,9 +244,22 @@
 }
 
 @media screen and (max-width: 500px) {
-  .container-fluid {
+  /* .container-fluid {
     margin-right: auto;
+  } */
+
+  .huge {
+    visibility: hidden;
+  }
+
+  .small {
+    display: flex;
+    margin: auto;
+    visibility: visible;
+  }
+
+  ul {
+    margin: auto;
   }
 }
-
 </style>

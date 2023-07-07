@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="mySkills" class="divi bg-dark row">
+    <div v-if="mySkills" class="divi bg-dark row p-1">
       <h1>My Skills</h1>
       <h5>Programming Languages</h5>
       <mySkillsComp

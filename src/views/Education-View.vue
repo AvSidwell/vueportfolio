@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="Educations" class="bg-dark row">
+    <div v-if="Educations" class="bg-dark row p-4">
       <EducationComp
         id=""
         v-for="Education of Educations"
