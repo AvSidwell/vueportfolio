@@ -206,6 +206,7 @@
 /* 0E8388 */
 /* CBE4DE */
 .huge {
+  display: flex;
   visibility: visible;
 }
 
@@ -249,6 +250,7 @@
   } */
 
   .huge {
+    display: none;
     visibility: hidden;
   }
 
