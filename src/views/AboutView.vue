@@ -1,5 +1,5 @@
 <template>
-  <div class="row bg-dark p-0 m-0">
+  <!-- <div class="row bg-dark p-0 m-0">
     <div class="col-12 col-sm-6 col-md-6 p-2 m-0 text-start">
       <img
         class="border-left"
@@ -24,11 +24,13 @@
         asset wherever I am.
       </p>
     </div>
+  </div> -->
+  <div>
+    <div v-if="Me" class="bg-dark px-4">
+      <AboutMeComp id="" v-for="andMe of Me" :key="andMe.id" :andMe="andMe"/>
+    </div>
+    <div v-else>Processing....</div>
   </div>
-  <div v-if="Me" class="bg-dark px-4">
-    <AboutMeComp id="" v-for="andMe of Me" :key="andMe.id" :andMe="andMe"/>
-  </div>
-  <div v-else>Processing....</div>
 </template>
 <script>
 import AboutMeComp from "@/components/AboutMeComp.vue";

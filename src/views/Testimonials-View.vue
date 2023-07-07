@@ -1,125 +1,127 @@
 <template>
-  <!-- <div class="holder">
-    <div class="container">
-      <div class="row">
-        <div class="click col-12 col-md-4 col-sm-6" tabindex="1">
-          <div class="tbn">
-            <img
-              src="https://i.postimg.cc/jSHZ1BFG/device-mockup-gradient-laptop-mockup-laptop.jpg"
-              alt=""
-            />
-            <h2><span>Name: </span>Person Five</h2>
-            <p><span>Status: </span> Classmate</p>
+  <div>
+    <!-- <div class="holder">
+      <div class="container">
+        <div class="row">
+          <div class="click col-12 col-md-4 col-sm-6" tabindex="1">
+            <div class="tbn">
+              <img
+                src="https://i.postimg.cc/jSHZ1BFG/device-mockup-gradient-laptop-mockup-laptop.jpg"
+                alt=""
+              />
+              <h2><span>Name: </span>Person Five</h2>
+              <p><span>Status: </span> Classmate</p>
+            </div>
+          </div>
+          <div class="hidden col-12 col-md-8 col-sm-6 dis">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+            distinctio quaerat hic illum odit fugit autem fugiat voluptatibus amet
+            blanditiis unde veritatis perferendis repellendus repellat. Ipsam hic
+            iste itaque quibusdam!
           </div>
         </div>
-        <div class="hidden col-12 col-md-8 col-sm-6 dis">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
-          distinctio quaerat hic illum odit fugit autem fugiat voluptatibus amet
-          blanditiis unde veritatis perferendis repellendus repellat. Ipsam hic
-          iste itaque quibusdam!
-        </div>
-      </div>
-      <div class="row">
-        <div class="click2 col-12 col-md-4 col-sm-6" tabindex="1">
-          <div class="tbn">
-            <img
-              src="https://i.postimg.cc/jSHZ1BFG/device-mockup-gradient-laptop-mockup-laptop.jpg"
-              alt=""
-            />
-            <h2><span>Name: </span>Person Five</h2>
-            <p><span>Status: </span> Classmate</p>
+        <div class="row">
+          <div class="click2 col-12 col-md-4 col-sm-6" tabindex="1">
+            <div class="tbn">
+              <img
+                src="https://i.postimg.cc/jSHZ1BFG/device-mockup-gradient-laptop-mockup-laptop.jpg"
+                alt=""
+              />
+              <h2><span>Name: </span>Person Five</h2>
+              <p><span>Status: </span> Classmate</p>
+            </div>
+          </div>
+          <div class="hidden2 col-12 col-md-8 col-sm-6 dis">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quia
+            minima cupiditate consequatur asperiores amet deserunt eaque numquam
+            et minus? Quo in ullam dignissimos quaerat, vel nobis aperiam odio
+            quod.
           </div>
         </div>
-        <div class="hidden2 col-12 col-md-8 col-sm-6 dis">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quia
-          minima cupiditate consequatur asperiores amet deserunt eaque numquam
-          et minus? Quo in ullam dignissimos quaerat, vel nobis aperiam odio
-          quod.
-        </div>
-      </div>
-      <div class="row">
-        <div class="click3 col-12 col-md-4 col-sm-6" tabindex="1">
-          <div class="tbn">
-            <img
-              src="https://i.postimg.cc/jSHZ1BFG/device-mockup-gradient-laptop-mockup-laptop.jpg"
-              alt=""
-            />
-            <h2><span>Name: </span>Person Five</h2>
-            <p><span>Status: </span> Classmate</p>
+        <div class="row">
+          <div class="click3 col-12 col-md-4 col-sm-6" tabindex="1">
+            <div class="tbn">
+              <img
+                src="https://i.postimg.cc/jSHZ1BFG/device-mockup-gradient-laptop-mockup-laptop.jpg"
+                alt=""
+              />
+              <h2><span>Name: </span>Person Five</h2>
+              <p><span>Status: </span> Classmate</p>
+            </div>
+          </div>
+          <div class="hidden3 col-12 col-md-8 col-sm-6 dis">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam atque
+            voluptates odit nesciunt repellendus magnam nemo dolore autem magni
+            eos modi tenetur nostrum rem laboriosam, velit quam, eum laborum
+            voluptatum.
           </div>
         </div>
-        <div class="hidden3 col-12 col-md-8 col-sm-6 dis">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam atque
-          voluptates odit nesciunt repellendus magnam nemo dolore autem magni
-          eos modi tenetur nostrum rem laboriosam, velit quam, eum laborum
-          voluptatum.
-        </div>
-      </div>
-      <div class="row">
-        <div class="click4 col-12 col-md-4 col-sm-6" tabindex="1">
-          <div class="tbn">
-            <img
-              src="https://i.postimg.cc/jSHZ1BFG/device-mockup-gradient-laptop-mockup-laptop.jpg"
-              alt=""
-            />
-            <h2><span>Name: </span>Person Five</h2>
-            <p><span>Status: </span> Classmate</p>
+        <div class="row">
+          <div class="click4 col-12 col-md-4 col-sm-6" tabindex="1">
+            <div class="tbn">
+              <img
+                src="https://i.postimg.cc/jSHZ1BFG/device-mockup-gradient-laptop-mockup-laptop.jpg"
+                alt=""
+              />
+              <h2><span>Name: </span>Person Five</h2>
+              <p><span>Status: </span> Classmate</p>
+            </div>
+          </div>
+          <div class="hidden4 col-12 col-md-8 col-sm-6 dis">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            nulla provident repudiandae sunt aut suscipit quos dignissimos
+            assumenda facilis voluptate soluta aliquam maiores, doloremque
+            molestias pariatur autem placeat libero reprehenderit.
           </div>
         </div>
-        <div class="hidden4 col-12 col-md-8 col-sm-6 dis">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
-          nulla provident repudiandae sunt aut suscipit quos dignissimos
-          assumenda facilis voluptate soluta aliquam maiores, doloremque
-          molestias pariatur autem placeat libero reprehenderit.
-        </div>
-      </div>
-      <div class="row">
-        <div class="click5 col-12 col-md-4 col-sm-6" tabindex="1">
-          <div class="tbn">
-            <img
-              src="https://i.postimg.cc/jSHZ1BFG/device-mockup-gradient-laptop-mockup-laptop.jpg"
-              alt=""
-            />
-            <h2><span>Name: </span>Person Five</h2>
-            <p><span>Status: </span> Classmate</p>
+        <div class="row">
+          <div class="click5 col-12 col-md-4 col-sm-6" tabindex="1">
+            <div class="tbn">
+              <img
+                src="https://i.postimg.cc/jSHZ1BFG/device-mockup-gradient-laptop-mockup-laptop.jpg"
+                alt=""
+              />
+              <h2><span>Name: </span>Person Five</h2>
+              <p><span>Status: </span> Classmate</p>
+            </div>
+          </div>
+          <div class="hidden5 col-12 col-md-8 col-sm-6 dis">
+            Lorem ipsum dol or sit amet consectetur adipisicing elit. Alias
+            debitis excepturi eum, rerum tenetur blanditiis dicta neque
+            dignissimos tempore culpa beatae voluptas porro facilis nam
+            accusantium earum deleniti at tempora?
           </div>
         </div>
-        <div class="hidden5 col-12 col-md-8 col-sm-6 dis">
-          Lorem ipsum dol or sit amet consectetur adipisicing elit. Alias
-          debitis excepturi eum, rerum tenetur blanditiis dicta neque
-          dignissimos tempore culpa beatae voluptas porro facilis nam
-          accusantium earum deleniti at tempora?
-        </div>
-      </div>
-      <div class="row">
-        <div class="click6 col-12 col-md-4 col-sm-6" tabindex="1">
-          <div class="tbn">
-            <img
-              src="https://i.postimg.cc/jSHZ1BFG/device-mockup-gradient-laptop-mockup-laptop.jpg"
-              alt=""
-            />
-            <h2><span>Name: </span>Person Five</h2>
-            <p><span>Status: </span> Classmate</p>
+        <div class="row">
+          <div class="click6 col-12 col-md-4 col-sm-6" tabindex="1">
+            <div class="tbn">
+              <img
+                src="https://i.postimg.cc/jSHZ1BFG/device-mockup-gradient-laptop-mockup-laptop.jpg"
+                alt=""
+              />
+              <h2><span>Name: </span>Person Five</h2>
+              <p><span>Status: </span> Classmate</p>
+            </div>
+          </div>
+          <div class="hidden6 col-12 col-md-8 col-sm-6 dis">
+            Lorem ipsum dol or sit amet consectetur adipisicing elit. Alias
+            debitis excepturi eum, rerum tenetur blanditiis dicta neque
+            dignissimos tempore culpa beatae voluptas porro facilis nam
+            accusantium earum deleniti at tempora?
           </div>
         </div>
-        <div class="hidden6 col-12 col-md-8 col-sm-6 dis">
-          Lorem ipsum dol or sit amet consectetur adipisicing elit. Alias
-          debitis excepturi eum, rerum tenetur blanditiis dicta neque
-          dignissimos tempore culpa beatae voluptas porro facilis nam
-          accusantium earum deleniti at tempora?
-        </div>
       </div>
+    </div> -->
+    <div v-if="myTestimonials" class="bg-dark px-4">
+      <myTestimonialsComp
+        id=""
+        v-for="myTestimonial of myTestimonials"
+        :key="myTestimonial.id"
+        :myTestimonial="myTestimonial"
+      />
     </div>
-  </div> -->
-  <div v-if="myTestimonials" class="bg-dark px-4">
-    <myTestimonialsComp
-      id=""
-      v-for="myTestimonial of myTestimonials"
-      :key="myTestimonial.id"
-      :myTestimonial="myTestimonial"
-    />
+    <div v-else>Processing...</div>
   </div>
-  <div v-else>Processing...</div>
 </template>
 <script>
 import myTestimonialsComp from "@/components/TesimonialComp.vue";

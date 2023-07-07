@@ -1,13 +1,20 @@
 <template>
-  <div v-if="mySkills" class="divi bg-dark row">
-    <h1>My Skills</h1>
-    <h5>Programming Languages</h5>
-  <mySkillsComp  id="proj" v-for="mySkill of mySkills" :key="mySkill.id" :mySkill="mySkill"/>
+  <div>
+    <div v-if="mySkills" class="divi bg-dark row">
+      <h1>My Skills</h1>
+      <h5>Programming Languages</h5>
+      <mySkillsComp
+        id="proj"
+        v-for="mySkill of mySkills"
+        :key="mySkill.id"
+        :mySkill="mySkill"
+      />
+    </div>
+    <div v-else>Processing...</div>
   </div>
-  <div v-else>Processing...</div>
 </template>
 <script>
-import mySkillsComp from "@/components/SkillComp.vue"
+import mySkillsComp from "@/components/SkillComp.vue";
 export default {
   computed: {
     mySkills() {
@@ -26,12 +33,10 @@ export default {
 /* 0E8388 */
 /* CBE4DE */
 .divi {
-margin: auto;
+  margin: auto;
   width: 100vw;
 }
 h1 {
-  color: #CBE4DE;
-
+  color: #cbe4de;
 }
-
 </style>
