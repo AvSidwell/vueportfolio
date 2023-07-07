@@ -75,9 +75,9 @@ h1 {
   color: #cbe4de;
   text-decoration: underline #cbe4de;
 }
-img {
+/* img {
   height: 70vh;
-}
+} */
 
 .row {
   width: 100%;
