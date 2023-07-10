@@ -75,9 +75,15 @@ h1 {
   color: #cbe4de;
   text-decoration: underline #cbe4de;
 }
-/* img {
-  height: 70vh;
-} */
+img {
+  width: 40vh;
+}
+@media screen and (max-width: 300px) {
+  
+  img {
+    height: 50%;
+  }
+}
 
 .row {
   width: 100%;
