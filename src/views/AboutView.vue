@@ -76,7 +76,7 @@ h1 {
   text-decoration: underline #cbe4de;
 }
 img {
-  width: 40vh;
+  width: 20vh;
 }
 @media screen and (max-width: 300px) {
   
