@@ -7,9 +7,9 @@
           <h2><span>Name: </span>{{ myTestimonial.name }}</h2>
           <p><span>Status: </span>{{ myTestimonial.status }}</p>
         </div>
-      </div>
-      <div class="hidden col-12 col-md-8 col-sm-12 dis">
-        <h5>{{ myTestimonial.view }}</h5>
+        <div class="hidden col-12 col-md-8 col-sm-12 dis">
+          <h5>{{ myTestimonial.view }}</h5>
+        </div>
       </div>
     </div>
   </div>
@@ -48,7 +48,6 @@ img {
   float: left;
   /* margin-right: 100%; */
 }
-
 
 .holder {
   background-color: black;
