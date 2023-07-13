@@ -83,7 +83,7 @@ img {
     height: 50vh;
   }
   .star {
-    height: 300vh;
+    height: 320vh;
   }
 }
 
