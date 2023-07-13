@@ -20,7 +20,7 @@ export default {
  /*#2e4f4f #0e8388 #cbe4de*/
  img {
     width: 100%;
-    height: 20vh;
+    height: 70vh;
  }
  .er1 {
     margin-top: 2rem;
