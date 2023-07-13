@@ -25,7 +25,7 @@
       </p>
     </div>
   </div> -->
-  <div class="bg-dark">
+  <div class="bg-dark star">
     <h1 class="animate__animated animate__fadeIn">About Me</h1>
     <h4
       class="animate__animated animate__flash animate__slower animate__delay-3s animate__infinite"
@@ -78,10 +78,12 @@ h1 {
 img {
   width: 20vh;
 }
-@media screen and (max-width: 300px) {
-  
+@media screen and (max-width: 500px) {
   img {
     height: 50vh;
+  }
+  .star {
+    height: 300vh;
   }
 }
 
