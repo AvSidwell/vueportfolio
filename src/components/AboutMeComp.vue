@@ -22,6 +22,12 @@ export default {
     width: 100%;
     height: 70vh;
  }
+
+ @media screen and(max-width: 500) {
+  img {
+    height: max-content;
+  }
+ }
  .er1 {
     margin-top: 2rem;
  }
