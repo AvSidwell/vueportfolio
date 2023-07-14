@@ -7,9 +7,9 @@
           <h2><span>Name: </span>{{ myTestimonial.name }}</h2>
           <p><span>Status: </span>{{ myTestimonial.status }}</p>
         </div>
-        <div class="hidden col-12 col-md-8 col-sm-12 dis">
-          <h5>{{ myTestimonial.view }}</h5>
-        </div>
+      </div>
+      <div class="hidden col-12 col-md-8 col-sm-12 dis">
+        <h5>{{ myTestimonial.view }}</h5>
       </div>
     </div>
   </div>
@@ -131,6 +131,7 @@ img {
 
 .click:focus + .hidden {
   display: block;
+  top: 6rem;
 }
 .click2:focus + .hidden2 {
   display: block;
@@ -151,7 +152,7 @@ img {
 .dis {
   position: absolute;
   top: 3.45rem;
-  height: 500px;
+  height: 600px;
   width: 40rem;
   left: 38rem;
   padding-top: 15rem;
@@ -172,8 +173,8 @@ img {
     top: 0;
     left: 0;
     padding-top: 1rem;
-    padding: 0.09;
-    font-size: 10px;
+    padding: 0.04;
+    font-size: 2px;
     text-align: center;
     width: 100%;
   }
@@ -201,9 +202,9 @@ img {
     position: relative;
     top: 0;
     left: 0;
-    padding-top: 1rem;
-    padding: 0.09;
-    font-size: 10px;
+    padding-top: 0.3rem;
+    padding: 0.02;
+    font-size: 4px;
     text-align: center;
     width: 100%;
   }
