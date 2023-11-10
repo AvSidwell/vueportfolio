@@ -120,6 +120,9 @@ img {
   position: relative;
   left: 10%;
 }
+.tbn {
+  height: auto;
+ }
 
 .mobile-button:hover {
   background-color: #cbe4de;
