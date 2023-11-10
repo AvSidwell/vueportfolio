@@ -116,7 +116,7 @@
 
       <!-- <div v-if="myTestimonials" class="bg-dark p-4"> -->
         <myTestimonialsComp
-          id="" class="bg-dark p-4"
+          id="" style="background-color:#212529; padding: 2rem;"
           v-for="myTestimonial of myTestimonials"
           :key="myTestimonial.id"
           :myTestimonial="myTestimonial"
