@@ -16,7 +16,7 @@ export default {
   props: ["andMe"],
 };
 </script>
-<style>
+<style scoped>
  /*#2e4f4f #0e8388 #cbe4de*/
  img {
     width: 100%;

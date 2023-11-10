@@ -79,6 +79,7 @@ img {
 
 .row {
   background-color: transparent;
+  height: 20vh;
 }
 
 .click {
