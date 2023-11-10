@@ -112,15 +112,18 @@
         </div>
       </div>
     </div> -->
-    <div v-if="myTestimonials" class="bg-dark p-4">
-      <myTestimonialsComp
-        id=""
-        v-for="myTestimonial of myTestimonials"
-        :key="myTestimonial.id"
-        :myTestimonial="myTestimonial"
-      />
+    <div>
+
+      <!-- <div v-if="myTestimonials" class="bg-dark p-4"> -->
+        <myTestimonialsComp
+          id="" class="bg-dark p-4"
+          v-for="myTestimonial of myTestimonials"
+          :key="myTestimonial.id"
+          :myTestimonial="myTestimonial"
+        />
+      <!-- </div> -->
+      <!-- <div v-else>Processing...</div> -->
     </div>
-    <div v-else>Processing...</div>
   </div>
 </template>
 <script>
