@@ -1,18 +1,18 @@
 <template>
   <div class="holder">
     <div class="row">
-      <div class="click col-12 col-md-4 col-sm-12" tabindex="1">
+      <div class=" col-6" style="background-color: #cbe4de;">
         <div class="tbn">
           <img :src="myTestimonial.picture" :alt="myTestimonial.name" />
           <h2><span>Name: </span>{{ myTestimonial.name }}</h2>
           <p><span>Status: </span>{{ myTestimonial.status }}</p>
         </div>
       </div>
-      <!-- <div class="hidden col-12 col-md-8 col-sm-12 dis">
-        <h5>{{ myTestimonial.view }}</h5>
-      </div>-->
+      <div class="col-6">
+
+        <button @click="showModal" class="mobile-button">Show more</button>
+      </div>
     </div>
-    <button @click="showModal" class="mobile-button">Show more</button>
     <div v-if="isModalVisible" class="modal" @click="closeModal">
       <div class="modal-content" @click.stop>
         <span class="close" @click="closeModal">&times;</span>
@@ -188,8 +188,8 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-color: rgba(0, 0, 0, 0.7); */
-  justify-content: end;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
   align-items: center;
   display: flex;
 }
